@@ -10,7 +10,7 @@ public class TestMaven {
 	System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");  
 		
 		WebDriver driver=new ChromeDriver();  
-		Thread.sleep(2000); 
+		Thread.sleep(3000); 
 		driver.get("https://yahoo.com");
 		driver.findElement(By.id("ybar-sbq")).click(); 
 		//Thread.sleep(2000); 
